@@ -66,6 +66,8 @@ span {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -399,6 +401,7 @@ span {
     gap: 5px;
     border-radius: 50px;
     background: #FFF;
+   
 }
 
 .icon_box:hover {
