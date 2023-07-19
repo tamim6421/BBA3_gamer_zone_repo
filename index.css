@@ -173,6 +173,66 @@ span {
     cursor: pointer;
 }
 
+
+/* we are gamer section */
+.gamer {
+    max-height: 700px;
+    background: rgba(245, 221, 221, 0.194);
+}
+
+.gamer_container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.gamer_img {
+    width: 50%;
+
+}
+
+.gamer_img img {
+    width: 100%;
+}
+
+.gamer_contant {
+    width: 50%;
+    float: right;
+    padding-right: 90px;
+}
+
+.gamer_title {
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #f182c5;
+}
+
+.gammer_description {
+    color: #534C64;
+    text-align: right;
+    font-size:1rem;
+    font-weight: 400;
+    padding-left:100px;
+}
+.btnn {
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #FF42A5;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    float: right;
+}
+
 /* online section styles */
 .online {
     width: auto;
@@ -222,9 +282,7 @@ span {
     position: relative;
 }
 
-#hover_box {
-   
-}
+#hover_box {}
 
 .box img {
     width: 100%;
@@ -390,7 +448,7 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
-    
+
     gap: 5px;
     padding: 20px;
     padding-top: 70px;
@@ -407,7 +465,7 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    
+
 }
 
 .our_item p {
@@ -423,7 +481,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 .footer_condation p {
@@ -482,9 +540,10 @@ footer {
     .banner_img {
         width: 90%;
         padding: 10px;
-        margin: auto;  
+        margin: auto;
     }
-    .banner_img img{
+
+    .banner_img img {
         min-height: 500px;
     }
 
@@ -493,6 +552,7 @@ footer {
         margin: auto;
         min-height: 400px;
     }
+
     .banner_contant {
         width: 80%;
         margin: 0 auto;
@@ -500,9 +560,11 @@ footer {
         height: 400px;
         margin-top: 70px;
     }
+
     .banner_title {
         font-size: 1.4rem;
     }
+
     .goat {
         font-size: 3rem;
     }
@@ -510,6 +572,7 @@ footer {
     .banner_descrip {
         font-size: .7rem;
     }
+
     .btn {
         font-size: .7rem;
     }
@@ -517,6 +580,8 @@ footer {
     .rugue_btn {
         font-size: .7rem;
     }
+
+
     /* online scetion */
     .online_box_contaainer {
         flex-direction: column;
@@ -533,6 +598,43 @@ footer {
         margin: auto;
         font-size: .9rem;
     }
+    /* gamer section */
+    .gamer_container{
+        flex-direction: column-reverse;
+    }
+     .gamer_contant{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        
+     }
+     .gammer_description {
+        color: #534C64;
+        text-align: center;
+        font-size:.9rem;
+        padding: 10px;
+    }  
+    .gamer_title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .btnn{
+        float: none;
+        margin-bottom: 10px;
+        font-size: .7rem;
+    }
+    .gamer_img {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .gamer_img img {
+        width: 100%;
+        min-height:300px ;
+    }
+    
 
     /* play section */
     .play_container {
@@ -545,7 +647,8 @@ footer {
         padding: 20px;
         text-align: center;
     }
-    .play_description{
+
+    .play_description {
         font-size: 1rem;
     }
 
@@ -592,15 +695,17 @@ footer {
         margin: 0 auto;
         height: auto;
     }
-    .footer_logo_name{
-        font-size:2rem;
+
+    .footer_logo_name {
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 
-    .logo_footer img{
+    .logo_footer img {
         width: 50px;
         height: 40px;
     }
+
     .our_item {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -620,24 +725,28 @@ footer {
         gap: 2px;
         width: 70%;
         margin: 50px auto;
-        
+
     }
-    .footer_logo i{
+
+    .footer_logo i {
         padding: 15px;
         font-size: 1.5rem;
     }
-    .footer_condation{
+
+    .footer_condation {
         width: 70%;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(2,1fr);  
+        grid-template-columns: repeat(2, 1fr);
     }
+
     .footer_condation p {
         color: rgba(255, 255, 255, 0.60);
         font-size: .6rem;
         padding: 6px;
     }
-    .copy{
+
+    .copy {
         align-items: center;
         font-size: .7rem;
         width: 90%;
@@ -675,18 +784,20 @@ footer {
         padding: 10px;
         margin: auto;
     }
-    .banner_img img{
+
+    .banner_img img {
         width: 90%;
         margin: auto;
         min-height: 600px;
     }
-    
+
 
     .banner_content_wrepper {
         width: 85%;
         margin: auto;
-        min-height: 500px;   
+        min-height: 500px;
     }
+
     .banner_contant {
         width: 90%;
         margin: 0 auto;
@@ -703,6 +814,45 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    
+    /* gamer section */
+    .gamer_container{
+        flex-direction: column-reverse;
+    }
+     .gamer_contant{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        
+     }
+     .gammer_description {
+        color: #534C64;
+        text-align: center;
+        font-size:1rem;
+        padding-left: 60px;
+        padding-right: 60px;
+    }  
+    .gamer_title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .btnn{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .gamer_img {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .gamer_img img {
+        width: 100%;
+        min-height:300px ;
+    }
+    
 
     /* play section */
     .play_container {
@@ -723,20 +873,24 @@ footer {
     .card_img {
         max-width: 40%;
     }
+
     /* footer */
     .footer_container {
         width: 90%;
         margin: 0 auto;
         height: auto;
     }
-    .copy{
+
+    .copy {
         font-size: .8rem;
         margin-top: 50px;
     }
-    .logo{
+
+    .logo {
         padding-top: 60px;
     }
-    .our_item p{
+
+    .our_item p {
         font-size: .9rem;
     }
 
