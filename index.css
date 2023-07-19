@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 span {
@@ -39,7 +39,7 @@ span {
     justify-content: space-between;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    height: 130px;
+    /* height: 130px; */
 }
 
 .menus li {
@@ -71,113 +71,107 @@ span {
 
 
 /* banner section start  */
-.click {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    /* justify-content: center; */
-}
-
-.click_main {
-    width:300px;
-    margin: auto;
-
-}
-
-.signbtn {
-    padding: 15px 30px;
-    color: #FFF;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius:48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    border: 0;
-    margin:20px 20px 20px;
-}
-.roguebtn {
-    padding: 15px 30px;
-    color: #FFF;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 48px;
-    background: #4EC5F7;
-    border: 0;
-    margin:20px 20px 20px 20px;
-}
-
-.click p {
-    color: #534C64;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: lowercase;
+.banner {
+    width: 100%;
+    min-height: 700px;
 }
 
 .banner_container {
+    width: 100%;
     display: flex;
-    width: 90%;
-    margin:auto;
+    gap: 10px;
     align-items: center;
-    justify-content: space-between;
-    height: 700px;
+
+}
+
+.banner_content_wrepper {
+    background-image: url("./images/Group\ 14.png");
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.banner_contant {
+    width: 100%;
+    padding-left: 100px;
+
+
 }
 
 .banner_img {
     width: 50%;
-    background: #FFF;
-    /* height: 600px; */
+    padding-right: 100px;
+
 }
 
 .banner_img img {
-    width: 90%;
-    display: block;
-    margin: auto;
-}
-
-.banner_content_wreper {
-    width: 50%;
-    background-image: url(./images/Group\ 14.png), linear-gradient(223deg, rgb(140 87 238 / 0%) 0%, rgba(241, 68, 174, 0.03) 100%);
-    height: 600px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    height: 700px;
-    
-}
-.banner_contant{
-    width:100%;
-    height: 400px;
-    margin-top: 120px;
+    width: 100%;
+    min-height: 700px;
 }
 
 .banner_title {
     color: #0B0223;
-    font-family: Work Sans;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-bottom: 0;
 }
 
 .goat {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
-    text-transform: uppercase;
+    line-height: normal;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
+.banner_descrip {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color:  #FF42A5;
+    border: 0;
+    margin-top: 20px;
+}
+.rugue_btn{
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color:#4EC5F7;
+    border: 0;
+    margin-top: 20px;
+}
 /* mediaQuery styles */
 /* for mobiles devices */
-@media screen and (max-width:576px) {
+@media screen and (max-width:500px) {
 
     .nav_container,
     .menus {
@@ -197,52 +191,44 @@ span {
     .banner_container{
         flex-direction: column-reverse;
     }
-    .banner_content_wreper{
-        width: 100%;
-        height: auto;
-    }
     .banner_img{
         width: 90%;
+        padding: 10px;
         margin: auto;
+    }
+    .banner_content_wrepper{
+        width: 90%;
+        margin: auto;    
     }
     .banner_contant{
         width: 80%;
-        margin: 20px auto;
-        height: auto;
+        margin:0 auto;
+        padding-left: 40px;
         
-
-    }
-    .goat{
-        font-size:3.4rem;
     }
     .banner_title{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
-    .signbtn{
-        padding: 10px 15px;
-        font-size: 1rem;
-        margin-right: 3px;
+    .goat{
+        font-size: 3rem;
     }
-    .roguebtn{
-        padding: 8px 12px;
-        font-size: 1rem;
-        margin: 0;
+    .banner_descrip{
+        font-size: .7rem;
+        
     }
-    .click_main{
-       display: block;
-       align-items: center;
-       padding-left: 30px;
+    .btn{
+        font-size: .7rem;
     }
-    .click p{
-        font-size: 1rem;
+    .rugue_btn{
+        font-size: .7rem;  
     }
-   
-} 
+}
+
 
 
 
 /* for tablet device */
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:500px) and (max-width:992px) {
     .nav_container {
         flex-direction: column;
     }
@@ -256,12 +242,21 @@ span {
     .banner_container{
         flex-direction: column-reverse;
     }
+    .banner_img{
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+    }
+    .banner_content_wrepper{
+        width: 85%;
+        margin: auto;
+    }
     .banner_contant{
         width: 90%;
-        margin: 0 auto;
+        margin:0 auto;
+        margin-left: 100px;   
     }
-    .banner_content_wreper{
-        width: 90%;
-        margin: 0 auto;
+    .banner_descrip{
+        font-size: 1.2rem;
     }
 }
