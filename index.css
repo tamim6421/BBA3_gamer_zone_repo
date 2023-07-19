@@ -155,6 +155,7 @@ span {
     background-color: #FF42A5;
     border: 0;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .rugue_btn {
@@ -169,6 +170,7 @@ span {
     background-color: #4EC5F7;
     border: 0;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 /* online section styles */
@@ -208,9 +210,10 @@ span {
     gap: 15px;
     margin-top: 50px;
     width: 90%;
-    margin: 100px auto;
+    margin: auto;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .box {
@@ -232,6 +235,7 @@ span {
     color: #534C64;
     font-size: .8rem;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .hover_logo {
@@ -411,6 +415,7 @@ footer {
     font-size: .9rem;
     font-weight: 600;
     padding: 9px;
+    cursor: pointer;
 
 }
 
@@ -427,6 +432,7 @@ footer {
     font-style: normal;
     font-weight: 500;
     padding: 7px;
+    cursor: pointer;
 
 }
 
@@ -437,6 +443,7 @@ footer {
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .copy {
@@ -451,7 +458,7 @@ footer {
 
 /* mediaQuery styles */
 /* for mobiles devices */
-@media screen and (max-width:550px) {
+@media screen and (max-width:562px) {
 
     .nav_container,
     .menus {
@@ -459,12 +466,12 @@ footer {
     }
 
     .menus {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 50px
     }
 
     .menus>li {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
 
     /* banner */
@@ -475,34 +482,34 @@ footer {
     .banner_img {
         width: 90%;
         padding: 10px;
-        margin: auto;
+        margin: auto;  
+    }
+    .banner_img img{
+        min-height: 500px;
     }
 
     .banner_content_wrepper {
         width: 90%;
         margin: auto;
+        min-height: 400px;
     }
-
     .banner_contant {
         width: 80%;
         margin: 0 auto;
         padding-left: 40px;
-
+        height: 400px;
+        margin-top: 70px;
     }
-
     .banner_title {
         font-size: 1.4rem;
     }
-
     .goat {
         font-size: 3rem;
     }
 
     .banner_descrip {
         font-size: .7rem;
-
     }
-
     .btn {
         font-size: .7rem;
     }
@@ -510,7 +517,6 @@ footer {
     .rugue_btn {
         font-size: .7rem;
     }
-
     /* online scetion */
     .online_box_contaainer {
         flex-direction: column;
@@ -538,6 +544,9 @@ footer {
         margin: auto;
         padding: 20px;
         text-align: center;
+    }
+    .play_description{
+        font-size: 1rem;
     }
 
     .play_img {
@@ -583,7 +592,15 @@ footer {
         margin: 0 auto;
         height: auto;
     }
+    .footer_logo_name{
+        font-size:2rem;
+        margin-bottom: 20px;
+    }
 
+    .logo_footer img{
+        width: 50px;
+        height: 40px;
+    }
     .our_item {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -607,6 +624,7 @@ footer {
     }
     .footer_logo i{
         padding: 15px;
+        font-size: 1.5rem;
     }
     .footer_condation{
         width: 70%;
@@ -634,14 +652,14 @@ footer {
 
 
 /* for tablet device */
-@media screen and (min-width:550px) and (max-width:992px) {
+@media screen and (min-width:562px) and (max-width:992px) {
     .nav_container {
         flex-direction: column;
     }
 
     .logo {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 40px;
+        margin-bottom: 30px;
     }
 
     .menus {
@@ -657,12 +675,18 @@ footer {
         padding: 10px;
         margin: auto;
     }
+    .banner_img img{
+        width: 90%;
+        margin: auto;
+        min-height: 600px;
+    }
+    
 
     .banner_content_wrepper {
         width: 85%;
         margin: auto;
+        min-height: 500px;   
     }
-
     .banner_contant {
         width: 90%;
         margin: 0 auto;
