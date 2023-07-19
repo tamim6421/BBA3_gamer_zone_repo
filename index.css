@@ -448,7 +448,6 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
-
     gap: 5px;
     padding: 20px;
     padding-top: 70px;
@@ -456,7 +455,12 @@ footer {
 
 .footer_logo_name {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.f_logo_img{
+    width:65px;
+    height: 40px;
 }
 
 .our_item {
