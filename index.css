@@ -279,6 +279,7 @@ span {
 }
 .hover_box_img{
     width: 100%;
+   height: 80%;
 }
 
 .box{
@@ -288,9 +289,9 @@ span {
 }
 
 
-.box img {
+.hover_box_img img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 .box p {
@@ -303,7 +304,7 @@ span {
 .hover_logo {
     position: absolute;
     width: 100%;
-    height:102%;
+    height:80%;
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
@@ -607,6 +608,7 @@ footer {
         width: 90%;
         margin: auto;
         font-size: .9rem;
+        margin-bottom: 20px;
     }
     /* gamer section */
     .gamer_container{
@@ -678,7 +680,7 @@ footer {
     .play_icon_container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width:100%;
+        width:90%;
         padding-left:10px;
         margin: auto;
     }
@@ -820,12 +822,15 @@ footer {
     }
 
     .online_box_contaainer {
-        width: 80%;
+        width: 70%;
         margin: 60px auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
+    .hover_box_img{
 
+    }
     
     /* gamer section */
     .gamer_container{
