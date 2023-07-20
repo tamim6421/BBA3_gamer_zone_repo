@@ -388,7 +388,7 @@ span {
 /* play icon sections */
 .play_icon {
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
     background: linear-gradient(90deg, rgba(255, 66, 164, 0.058) 0%, rgba(255, 66, 164, 0.063) 100%);
     margin-top: 200px;
 
@@ -398,7 +398,7 @@ span {
     width: 200px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap:5px;
     border-radius: 50px;
     background: #FFF;
    
@@ -431,6 +431,7 @@ span {
     gap: 10px;
     padding-top: 100px;
     padding-bottom: 50px;
+    row-gap: 20px;
 }
 
 /* footer section start */
@@ -675,13 +676,15 @@ footer {
     .play_icon_container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 100%;
+        width: 90%;
         padding: 5px;
+        margin: auto;
 
     }
 
     .icon_box {
         width: 98px;
+        row-gap: 20px;
     }
 
     .icon_box img {
