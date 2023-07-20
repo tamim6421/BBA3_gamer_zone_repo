@@ -272,7 +272,7 @@ span {
     display: flex;
     gap: 15px;
     margin-top: 50px;
-    width: 90%;
+    width:90%;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -283,9 +283,10 @@ span {
 }
 
 .box{
-    max-width: 300px;
+    max-width: 280px;
     height: 335px;
     position: relative;
+    flex:1;
 }
 
 
