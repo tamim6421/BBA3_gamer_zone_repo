@@ -676,10 +676,9 @@ footer {
     .play_icon_container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 90%;
-        padding: 5px;
+        width:100%;
+        padding-left:10px;
         margin: auto;
-
     }
 
     .icon_box {
